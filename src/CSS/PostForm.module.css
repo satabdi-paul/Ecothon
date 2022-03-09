@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+.CardTitle {
+  color: black;
+  font-size: 33px;
+  text-align: left;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.CardImage {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+.form_group {
+  margin: 20px 0;
+  padding: 0 20px;
+}
+.form_header {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  width: auto;
+  margin-left: 20px;
+  line-height: 55px;
+  border-bottom: #29ab87 solid 5px;
+  color: #000000;
+}
+
+.label {
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 16px;
+  /* or 89% */
+
+  letter-spacing: 0.15px;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+
+  /* Charcoal */
+
+  color: #384248;
+}
+.Input {
+  border-top-width: 0in;
+  border-right-width: 0in;
+  border-left-width: 0in;
+}
+
+.RectangleEligibility {
+  width: 105px;
+  height: 5px;
+  margin-bottom: 20px;
+  background-color: #29ab87;
+}
+
+.RectangleBasicDetails {
+  width: 300px;
+  height: 3px;
+  margin-bottom: 20px;
+  background-color: #29ab87;
+}
+
+.RectangleJobDescription {
+  width: 195px;
+  height: 5px;
+  margin-bottom: 20px;
+  background-color: #29ab87;
+}
+
+.RectangleRounds {
+  width: 95px;
+  height: 5px;
+  margin-bottom: 20px;
+  background-color: #29ab87;
+}
+
+.Button {
+  padding: 5px 30px;
+  font-size: 17px;
+  position: relative;
+  float: right;
+  margin-top: 10px;
+  margin-left: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: #29ab87;
+  border: none;
+  box-shadow: 0 10px 20px -8px rgb(0 0 0 / 70%);
+  transition: all .5s;
+}
+
+/* make outline none when button gets clicked */
+.Button:focus {
+  outline: none;
+}
+
+.PostFormComponent {
+  width: 100%;
+  padding: 10px;
+  margin: 80px 0 0 0;
+  background: #eafff1;
+}
+
+/* @media only screen and (max-width: 1113px) {
+  .PostFormComponent {
+    width: 60%;
+    margin: 120px auto 20px;
+    padding-left: 3%;
+  } */
+/* } */
+
+/* @media only screen and (max-width: 1000px) {
+  .PostFormComponent {
+    width: 65%;
+    margin: 120px auto 20px;
+    padding-left: 2%;
+  }
+}
+
+@media only screen and (max-width: 801px) {
+  .PostFormComponent {
+    width: 70%;
+    margin: 120px auto 20px;
+    padding-left: 0;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .PostFormComponent {
+    width: 75%;
+    margin: 120px auto 20px;
+    padding-right: 40px;
+  }
+} */
+
+@media only screen and (max-width: 578px) {
+  .switch {
+    margin: 20px 0;
+  }
+}

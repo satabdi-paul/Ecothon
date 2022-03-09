@@ -1,0 +1,25 @@
+.Jumbotron {
+  padding-top: 0px;
+  background-color: white;
+  /* justify-content: center; */
+}
+
+.Heading {
+  font-size: 50px;
+  text-align: center;
+  
+}
+
+.About {
+  color: #29ab87;
+}
+
+.jus_content {
+  justify-content: center;
+}
+
+@media only screen and (max-width: 531px) {
+  .Heading {
+    font-size: 40px;
+  }
+}

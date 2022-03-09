@@ -1,0 +1,57 @@
+.Box {
+  /* justify-content: center; */
+  /* margin: 5% 5% 5% 5%; */
+  margin: 5%;
+  /* margin-bottom: 5%; */
+}
+
+.Card {
+  width: 200px;
+  border-radius: 2%;
+  box-shadow: 0px 3px 4px 0px #ccc;
+  /* margin-left: 50%; */
+  transition: all 0.6s;
+}
+
+.Card:hover {
+  z-index: 99;
+  box-shadow: 2px 2px 30px #a5bda3;
+  transform: scale(1.2);
+  transition: all 1s;
+}
+
+.CardTitle {
+  color: black;
+  font-size: 23px;
+  text-align: center;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.CardImage {
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+.Rectangle {
+  width: 155px;
+  height: 3px;
+  margin-bottom: 20px;
+  background-color: #29ab87;
+}
+
+@keyframes card-ani {
+  0% {
+    transform: translateY(-20px);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-20px);
+  }
+}
